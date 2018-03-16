@@ -43,3 +43,9 @@ git user.email "email@domain.com" (same as github)
 
 use_git_config(user.name = "Andrew", email = "email@domain.com")
 
+Book on how to use R
+happy git with R
+
+
+use the git tab to commit the changes to the git repository
+
