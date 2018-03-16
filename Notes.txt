@@ -120,3 +120,15 @@ Remember, some features might require Rstudio to be updated. Therefore, you can 
 Depends: R (>= 3.0.1)
 
 Now, you can add a travis badge to the readme file by copy the travis badge in a markdown format to the readme that will be visible on the github page 
+
+To add the travis coverage badge:
+
+	use_coverage(type = "codecov")
+	
+then, paste the coverage status markdown in console to readme (top)
+and paste the after_success in command stuff into the travis file, commit, push
+
+Then, use the following to add github linkes so that they know how they find their way to you
+
+use_github_links()
+
