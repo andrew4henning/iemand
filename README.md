@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/andrew4henning/iemand.svg?branch=master)](https://travis-ci.org/andrew4henning/iemand)
 
+ [![Coverage status](https://codecov.io/gh/andrew4henning/iemand/branch/master/graph/badge.svg)](https://codecov.io/github/andrew4henning/iemand?branch=master)
+
 # iemand
 
 The goal of iemand is to ...
