@@ -95,3 +95,8 @@ copy the data required to the folder created
 
 see the readr package to read in data in a better way
 
+after using the data, store in data folder in rda file so that the workspace is saved. it's all part of the usethis package
+
+To add a function to the package use the line:
+use_r("function_name")
+
