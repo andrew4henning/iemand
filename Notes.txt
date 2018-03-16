@@ -100,3 +100,23 @@ after using the data, store in data folder in rda file so that the workspace is 
 To add a function to the package use the line:
 use_r("function_name")
 
+
+SESSION 3
+Automatically check your pacakage
+Github exploration
+
+To check the package
+run devtools::check() 
+
+To test whether the package works in Travis:
+	use_travis()
+
+log in with Github and commit, push changes
+
+To add readme file to give a better description
+use_readme_rmd
+
+Remember, some features might require Rstudio to be updated. Therefore, you can add:
+Depends: R (>= 3.0.1)
+
+Now, you can add a travis badge to the readme file by copy the travis badge in a markdown format to the readme that will be visible on the github page 
