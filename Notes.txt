@@ -1,0 +1,45 @@
+  #Crete age for someone
+
+#'  @details This is a useless function
+#'  @retun age(integer)
+#'  @export(create_age)
+#'
+
+create_age = function(){
+  age = sample(1:100,size = 1)
+  return (age)
+}
+
+
+
+
+
+
+
+
+#Info for the workshop
+#click on the files on the right to edit the file text
+#use function to define our licence and to assign copyright
+use_mit_license(name = "Andrew Henning")
+
+
+#use this to load all R scripts into the package
+ load_all()
+
+#in the script, if you want to insert the documentation details, click code, "insert roxygen skeleton"
+
+#intalling the package, go to build and then install and restart to install the package
+#also use the following code to actually recognise the package code
+	use_r(name = "create_age")
+	document()
+
+#now, navigate folder using git bash and then run:
+git init
+
+git user.name "Andrew"
+git user.email "email@domain.com" (same as github)
+
+#then in r:
+
+use_git_config(user.name = "Andrew", email = "email@domain.com")
+
