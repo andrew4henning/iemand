@@ -89,3 +89,9 @@ each time after making changes, use
 load_all()
 document()
 
+To add the data to the package:
+use_data_raw()
+copy the data required to the folder created
+
+see the readr package to read in data in a better way
+
