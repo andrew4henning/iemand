@@ -33,6 +33,7 @@ use_mit_license(name = "Andrew Henning")
 	use_r(name = "create_age")
 	document()
 
+
 #now, navigate folder using git bash and then run:
 git init
 
@@ -48,4 +49,43 @@ happy git with R
 
 
 use the git tab to commit the changes to the git repository
+
+
+#to import, see the instructions after creating github repository
+
+
+
+
+Now there is no help documentations
+run the following to include documentation
+
+use_package_doc() 
+document()
+
+
+
+
+
+
+
+SESSION 2
+
+
+
+
+
+
+
+use_testthat() - Forces developers to use testthat package and create folder
+use_test("create_age")- test the own package to insure that the package is working correctly
+
+Then after configuring the tests, you should test the package by going under build and then more, test package
+
+To add external dependencies
+use_package(package = "praise")
+
+each time after making changes, use
+
+load_all()
+document()
 

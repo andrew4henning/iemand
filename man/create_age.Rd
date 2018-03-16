@@ -7,5 +7,5 @@
 create_age()
 }
 \description{
-Title
+this is a program to sample a random age
 }
