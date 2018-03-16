@@ -127,8 +127,14 @@ To add the travis coverage badge:
 	
 then, paste the coverage status markdown in console to readme (top)
 and paste the after_success in command stuff into the travis file, commit, push
+ --avoid spaces before the code
 
 Then, use the following to add github linkes so that they know how they find their way to you
 
 use_github_links()
 
+
+Make use of the intro rmd file to be able to give examples and more info of your package. You can use this to run people through your program and give examplesRun:
+use_vignette(name = "intro")
+
+s
